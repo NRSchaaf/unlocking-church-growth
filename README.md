@@ -17,14 +17,16 @@ The analysis uses data from the National Congregations Study, Cumulative Dataset
 
 ## Features Analyzed
 
+This analysis examines various factors influencing church attendance based on data from the National Congregations Study. Key categories explored include:
+
 - **Change:** Focuses on congregational change in size.
-      - increased
-      - decreased
 - **Facilities:** Examines aspects like building type and remodeling.
 - **Music:** Reviews the use of various musical instruments and singing.
 - **Staffing:** Looks at full-time and part-time staff in leadership positions.
 - **Worship:** Explores attributes of worship services and sermons.
 - **Programs:** Identifies popular religious programs offered.
+
+For a detailed list of specific features analyzed within each category, please refer to [FEATURES.md](link-to-features).
 
 ## Visualizations
 
