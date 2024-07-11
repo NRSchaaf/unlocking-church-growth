@@ -36,7 +36,7 @@ This analysis examines various factors influencing church attendance based on da
 - **Worship:** Explores attributes of worship services and sermons.
 - **Programs:** Identifies popular religious programs offered.
 
-For a detailed list of specific features analyzed within each category, please refer to [FEATURES.md](link-to-features).
+For a detailed list of specific features analyzed within each category, please refer to [FEATURES.md](FEATURES.md).
 
 ## Visualizations
 
