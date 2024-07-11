@@ -34,7 +34,7 @@ Custom palettes are used to maintain consistency of denominations' colors across
 
 ## Detailed Analysis
 
-For a detailed analysis, please refer to the [detailed analysis document](detailed_analysis.md).
+For a detailed analysis, please refer to the [detailed analysis document](DETAILED_ANALYSIS.md).
 
 ## References
 
