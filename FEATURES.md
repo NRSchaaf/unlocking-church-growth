@@ -4,7 +4,13 @@
 
 ### change_increase
 
+ - Description: This is an engineered feature indicating if a congregation reported an increase of less than or more than 10%.
+ - change_increase = "Increased less than 10 percent" + "Increased more than 10 percent"
+
 ### change_decrease
+
+ - Description: This is an engineered feature indicating if a congregation reported an decrease of less than or more than 10%.
+ - change_decrease = "Decreased less than 10 percent" + "Decreased more than 10 percent"
 
 ## Facilities
 
@@ -73,11 +79,469 @@
 
 ## Music
 
+### SINGING
+
+- **Singing by Congregation (SINGING)**
+  - Description: Indicates there was singing by the congregation during the service.
+  - Boolean
+
+### CHOIR
+
+- **Singing by Choir (CHOIR)**
+  - Description: Indicates there was singing by a choir during the service.
+  - Boolean
+
+### PIANO
+
+- **Piano Music (PIANO)**
+  - Description: Indicates there was a piano used during the service.
+  - Boolean
+
+### ORGAN
+
+- **Organ Music (ORGAN)**
+  - Description: Indicates there was an organ used during the service.
+  - Boolean
+
+### DRUMS
+
+- **Drum Music (DRUMS)**
+  - Description: Indicates there were drums used during the service.
+  - Boolean
+
+### ELECGTR
+
+- **Electric Guitar Music (ELECGTR)**
+  - Description: Indicates there was an electric guitar used during the service.
+  - Boolean
+
+### GUITAR
+
+- **Guitar Music (GUITAR)**
+  - Description: Indicates there was a guitar used during the service.
+  - Boolean
 
 ## Staffing
 
+Note that the Staffing Analysis does not include analysis of a full-time lead or head clergy member as this is assumed applicable to all congregations.
+
+### FTSTAFF
+
+- **Full-Time Childrens Ministry (FTSTAFF)**
+  - Description: Indicates how many full-time employees there are.
+  - integer
+ 
+### PTSTAFF
+
+- **Part-Time Childrens Ministry (PTSTAFF)**
+  - Description: Indicates how many part-time employees there are.
+  - integer
+
+### FTSCHLD
+
+- **Full-Time Childrens Ministry (FTSCHLD)**
+  - Description: Indicates how many full-time children's ministry employees there are.
+  - integer
+ 
+### PTSCHLD
+
+- **Part-Time Childrens Ministry (PTSCHLD)**
+  - Description: Indicates how many part-time children's ministry employees there are.
+  - integer
+
+### FTSYOUTH
+
+- **Full-Time Youth Ministry (FTSYOUTH)**
+  - Description: Indicates how many full-time youth ministry employees there are.
+  - integer
+
+### PTSYOUTH
+
+- **Part-Time Youth Ministry (PTSYOUTH)**
+  - Description: Indicates how many part-time youth ministry employees there are.
+  - integer
+
+### FTSYA
+
+- **Full-Time Young Adult Ministry (FTSYA)**
+  - Description: Indicates how many full-time young adult ministry employees there are.
+  - integer
+
+### PTSYA
+
+- **Part-Time Young Adult Ministry (PTSYA)**
+  - Description: Indicates how many part-time young adult ministry employees there are.
+  - integer
+
+### FTSMUSIC
+
+- **Full-Time Music Ministry (FTSMUSIC)**
+  - Description: Indicates how many full-time music employees there are.
+  - integer
+
+### PTSMUSIC
+
+- **Part-Time Music Ministry (PTSMUSIC)**
+  - Description: Indicates how many part-time music employees there are.
+  - integer
+
+### FTSREDU
+
+- **Full-Time Religious Education (FTSREDU)**
+  - Description: Indicates how many full-time religous education employees there are.
+  - integer
+
+### PTSREDU
+
+- **Part-Time Religious Education (PTSREDU)**
+  - Description: Indicates how many part-time religious eduation employees there are.
+  - integer
+
+### FTSFAMIN
+
+- **Full-Time Religious Education (FTSFAMIN)**
+  - Description: Indicates how many full-time family ministry employees there are.
+  - integer
+
+### PTSFAMIN
+
+- **Part-Time Religious Education (PTSFAMIN)**
+  - Description: Indicates how many part-time family ministry employees there are.
+  - integer
+
+### FTSCARE
+
+- **Full-Time Pastoral Care (FTSCARE)**
+  - Description: Indicates how many full-time pastoral care employees there are.
+  - integer
+
+### PTSCARE
+
+- **Part-Time Pastoral Care (PTSCARE)**
+  - Description: Indicates how many part-time pastoral care employees there are.
+  - integer
+
+### FTSPSYCH
+
+- **Full-Time Psychological Counseling (FTSPSYCH)**
+  - Description: Indicates how many full-time psychological counseling employees there are.
+  - integer
+
+### PTSPSYCH
+
+- **Part-Time Psychological Counseling (PTSPSYCH)**
+  - Description: Indicates how many part-time psychological counseling employees there are.
+  - integer
+
+### FTSENGAG
+
+- **Full-Time Community Engagement (FTSENGAG)**
+  - Description: Indicates how many full-time community engagement employees there are.
+  - integer
+
+### PTSENGAG
+
+- **Part-Time Community Engagement (PTSENGAG)**
+  - Description: Indicates how many part-time community engagement employees there are.
+  - integer
+
+### FTSENGAG
+
+- **Full-Time Community Engagement (FTSENGAG)**
+  - Description: Indicates how many full-time community engagement employees there are.
+  - integer
+
+### PTSENGAG
+
+- **Part-Time Community Engagement (PTSENGAG)**
+  - Description: Indicates how many part-time community engagement employees there are.
+  - integer
+
+### FTSGROW
+
+- **Full-Time Spiritual Growth (FTSGROW)**
+  - Description: Indicates how many full-time spiritual growth employees there are.
+  - integer
+
+### PTSGROW
+
+- **Part-Time Spiritual Growth (PTSGROW)**
+  - Description: Indicates how many part-time spiritual growth employees there are.
+  - integer
+
+### FTSREACH
+
+- **Full-Time Outreach (FTSREACH)**
+  - Description: Indicates how many full-time outreach employees there are.
+  - integer
+
+### PTSREACH
+
+- **Part-Time Outreach (PTSREACH)**
+  - Description: Indicates how many part-time outreach employees there are.
+  - integer
+
+### FTSADMIN
+
+- **Full-Time Administration (FTSADMIN)**
+  - Description: Indicates how many full-time administration employees there are.
+  - integer
+
+### PTSADMIN
+
+- **Part-Time Administration (PTSADMIN)**
+  - Description: Indicates how many part-time administration employees there are.
+  - integer
+
+### FTSVOLC
+
+- **Full-Time Volunteer Coordinator (FTSVOLC)**
+  - Description: Indicates how many full-time volunteer coordinator employees there are.
+  - integer
+
+### PTSVOLC
+
+- **Part-Time Volunteer Coordinator (PTSVOLC)**
+  - Description: Indicates how many part-time volunteer coordinator employees there are.
+  - integer
+
+### FTSWTECH
+
+- **Full-Time Worship-Related Technology (FTSWTECH)**
+  - Description: Indicates how many full-time worship-related technology employees there are.
+  - integer
+
+### PTSWTECH
+
+- **Part-Time Worship-Related Technology (PTSWTECH)**
+  - Description: Indicates how many part-time worship-related technology employees there are.
+  - integer
+
+### FTSTECH
+
+- **Full-Time Technology Other Than Worship (FTSTECH)**
+  - Description: Indicates how many full-time technology other than worship-related employees there are.
+  - integer
+
+### PTSTECH
+
+- **Part-Time Technology Other Than Worship (PTSTECH)**
+  - Description: Indicates how many part-time technology other than worship-related employees there are.
+  - integer
+
+### FTSMEDIA
+
+- **Full-Time Media (FTSMEDIA)**
+  - Description: Indicates how many full-time media employees there are.
+  - integer
+
+### PTSMEDIA
+
+- **Part-Time Media (PTSMEDIA)**
+  - Description: Indicates how many part-time media employees there are.
+  - integer
 
 ## Worship
 
+### NUMSERV1
+
+- **Services per Week (NUMSERV1)**
+  - Description: Indicates how services per week there are.
+  - integer
+
+### LENGTH
+
+- **Length of Service (LENGTH)**
+  - Description: Indicates how long did the last servcie last.
+  - integer
+
+### SERMON
+
+- **Had Sermon (SERMON)**
+  - Description: Indicates if there was a sermon as part of the service.
+  - Boolean
+
+### SERMTIME
+
+- **Sermon Time (SERMTIME)**
+  - Description: Indicates how long the last sermon was.
+  - integer
+
+### SPKRDWN
+
+- **Speaker Down from Stage (SPKRDWN)**
+  - Description: Indicates if the speaker came down from the altar, podium, chancel, or stage during the sermon.
+  - Boolean
+
+### NUMSPOKE
+
+- **Unique Speakers (NUMSPOKE)**
+  - Description: Indicates the number of unique speakers during the last service.
+  - integer
+
+### GREET
+
+- **Congregation Greeting During Service (GREET)**
+  - Description: Indicates if there was a time for congregational greetings, hand shaking, etc. during the last service.
+  - Boolean
+
+### KIDTIME
+
+- **Part Specifically for Children (KIDTIME)**
+  - Description: Indicates if there was a part of the service specifically directed at children.
+  - Boolean
+
+### TEENPART
+
+- **Part Specifically for Teens (TEENPART)**
+  - Description: Indicates if any teens participated by speaking, singing, or performing during the service, not including in the choir or general congregation.
+  - Boolean
+
+### ROBE
+
+- **Leader in Robe (ROBE)**
+  - Description: Indicates if the clergy leader wore a robe.
+  - Boolean
+
+### APPLAUSE
+
+- **Applause (APPLAUSE)**
+  - Description: Indicates if there was an applause at any point in the service.
+  - Boolean
+
+### LAUGH
+
+- **Laughing (LAUGH)**
+  - Description: Indicates if there was any laughing at any point in the service.
+  - Boolean
+
+### PROGRAM
+
+- **Program or Bulletin (PROGRAM)**
+  - Description: Indicates if a program, bulletin or other written order of service were handed out for people to follow.
+  - Boolean
+
+### OVERHEAD
+
+- **Overhead Projector or Screen (OVERHEAD)**
+  - Description: Indicates if visual projection equipment was used.
+  - Boolean
+
+### STREAMED
+
+- **Streamed (STREAMED)**
+  - Description: Indicates if the service was broadcast or streamed live so that people outside the building or campus could see it.
+  - Boolean
+
+### STMPHONE
+
+- **Smart Phone (STMPHONE)**
+  - Description: Indicates if people were offered the opportunity to use their smartphones during the service to participate in some way.
+  - Boolean
+
+### CONGREAD
+
+- **Congregational Reading (CONGREAD)**
+  - Description: Indicates if the congregation spoke, read, or recited something together at any point.
+  - Boolean
+
+### OFFERING
+
+- **Monetary Offering (OFFERING)**
+  - Description: Indicates if ta monetary offering was collected during the service.
+  - Boolean
+
+### SOCLTIME
+
+- **Social Time (SOCLTIME)**
+  - Description: Indicates how long people usually mingle and socialize informally with each other before and after the service (in minutes).
+  - integer
 
 ## Programs
+
+### CLSYACS
+
+
+### CLSADLT
+
+
+### YTHGRP
+
+
+
+### TEENCHOR
+
+
+### TEENCAMP
+
+
+### TEENVOL
+
+
+### POLITICS
+
+
+
+### DISBIBLE
+
+
+
+### BOOKS
+
+
+### PARENTS
+
+
+### VOTERREG
+
+
+### SCIENCE
+
+
+### ENVIRON
+
+
+### ORGVOLS
+
+
+### WORKPROB
+
+
+### NEWMEMS
+
+
+### TRAIN
+
+
+### RACEREL
+
+
+### OTHTRAD
+
+
+### OWNMONY
+
+
+### CONGMONY
+
+
+### ASSESS
+
+
+
+### MARRIAGE
+
+
+### WOMENGRP
+
+
+### MENGRP
+
+
+### EXERCISE
+
+
+### LGBT
+
+
+
