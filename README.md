@@ -3,6 +3,16 @@
 **Author:** Nathan Schaaf    
 **Date:** July 10, 2024
 
+## Work In Progress | TODO
+
+Please note that this project is **In Progress**, and the estiamted completion date is July 31, 2024. Items to complete are:
+- Analysis of Each Feature Key Category
+  - Preprocessing
+  - Modeling
+  - Validation
+- Visualization
+- Summary and Insights
+
 ## Objective
 
 This analysis aims to identify factors that can help increase church attendance, especially considering the decline in regular attendance and participation over the past two decades and the impact of the 2019 Covid pandemic.
