@@ -36,7 +36,7 @@ This analysis examines various factors influencing church attendance based on da
 - **Worship:** Explores attributes of worship services and sermons.
 - **Programs:** Identifies popular religious programs offered.
 
-For a detailed list of specific features analyzed within each category, please refer to [FEATURES.md](link-to-features).
+For a detailed list of specific features analyzed within each category, please refer to [FEATURES.md](FEATURES.md).
 
 ## Visualizations
 
@@ -48,5 +48,5 @@ For a detailed analysis, please refer to the [detailed analysis document](DETAIL
 
 ## References
 
-- Chaves, M. (2021, January 25). National Congregations Study, Cumulative Dataset (1998, 2006-2007, 2012, and 2018-2019). The Association of Religion Data Archives. doi:10.17605/OSF.IO/V5ZKB
+- Chaves, M. (2021, January 25). National Congregations Study, Cumulative Dataset (1998, 2006-2007, 2012, and 2018-2019). The Association of Religion Data Archives. doi:10.17605/OSF.IO/V5ZKB. https://www.thearda.com/data-archive?fid=NCSIV.
 - Jones, J. M. (2024, March 25). Church Attendance Has Declined in Most U.S. Religious Groups. Retrieved June 28, 2024, from GALLUP: https://news.gallup.com/poll/642548/church-attendance-declined-religious-groups.aspx
