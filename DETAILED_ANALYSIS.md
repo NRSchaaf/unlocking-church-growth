@@ -1,7 +1,7 @@
 # Unlocking Church Growth: Data Insights from the National Congregations Study
 
 **Author:** Nathan Schaaf  
-**Date:** July XX, 2024
+**Date:** IN PROGRESS
 
 ## Objective
 
