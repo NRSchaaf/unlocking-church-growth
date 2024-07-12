@@ -448,7 +448,7 @@ Note that the Staffing Analysis does not include analysis of a full-time lead or
 ### OFFERING
 
 - **Monetary Offering (OFFERING)**
-  - Description: Indicates if ta monetary offering was collected during the service.
+  - Description: Indicates if a monetary offering was collected during the service.
   - Boolean
 
 ### SOCLTIME
@@ -461,87 +461,162 @@ Note that the Staffing Analysis does not include analysis of a full-time lead or
 
 ### CLSYACS
 
+- **College/Young Adult Religious Education Classes (CLSYACS)**
+  - Description: Indicates if religious classes for young adults or college students are offered at least weekly.
+  - Boolean
 
 ### CLSADLT
 
+- **Adult Religious Education Classes (CLSADLT)**
+  - Description: Indicates if religious classes adults of any age are offered at least weekly.
+  - Boolean
 
 ### YTHGRP
 
-
+- **Youth Group for Teens (YTHGRP)**
+  - Description: Indicates if there is an organized youth group for teenagers.
+  - Boolean
 
 ### TEENCHOR
 
+- **Choir for Teens (TEENCHOR)**
+  - Description: Indicates if there are choirs or other musical groups composed primarily of teenagers.
+  - Boolean
 
 ### TEENCAMP
 
+- **Teen Camps (TEENCAMP)**
+  - Description: Indicates an annual participation in youth retreats, conferences, or camps.
+  - Boolean
 
 ### TEENVOL
 
+- **Teen Volunteer Projects (TEENVOL)**
+  - Description: Indicates teens have participated in service projects or volunteer projects through the congregation.
+  - Boolean
 
 ### POLITICS
 
-
+- **Discuss Politics (POLITICS)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on discussing politics.
+  - Boolean
 
 ### DISBIBLE
 
-
+- **Bible Class (DISBIBLE)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on discussing the bible.
+  - Boolean
 
 ### BOOKS
 
+- **Books Class other than Bible (BOOKS)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on discussing books other than the bible.
+  - Boolean
 
 ### PARENTS
 
+- **Parents Class (PARENTS)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on discussing parenting.
+  - Boolean
 
 ### VOTERREG
 
+- **Voter Registration Meetings (VOTERREG)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on an effort to get people registered to vote.
+  - Boolean
 
 ### SCIENCE
 
+- **Science & Religion (SCIENCE)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss any sort of scientific issue or the relationship between science and religion.
+  - Boolean
 
 ### ENVIRON
 
+- **The Environment (ENVIRON)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss issues related to the environment.
+  - Boolean
 
 ### ORGVOLS
 
+- **Volunteer Group (ORGVOLS)**
+  - Description: Indicates any meetings, groups, or classes specifically to organize or encourage people to do volunteer work.
+  - Boolean
 
 ### WORKPROB
 
+- **Concerns at Work Group (WORKPROB)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss people's problems or concerns at work.
+  - Boolean
 
 ### NEWMEMS
 
+- **New Members (NEWMEMS)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on prospective or new members.
+  - Boolean
 
 ### TRAIN
 
+- **Religious Education Training (TRAIN)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on training new religious education teachers.
+  - Boolean
 
 ### RACEREL
 
+- **Race & Race Relations (RACEREL)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss issues related to race and race relations.
+  - Boolean
 
 ### OTHTRAD
 
+- **Other Religions (OTHTRAD)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss or learn about religions other than your own.
+  - Boolean
 
 ### OWNMONY
 
+- **Personal Finances (OWNMONY)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss or learn how to manage one's personal finances.
+  - Boolean
 
 ### CONGMONY
 
+- **Congregation Finances (CONGMONY)**
+  - Description: Indicates any meetings, groups, or classes specifically to discuss how to improve the management of your congregation's finances.
+  - Boolean
 
 ### ASSESS
 
-
+- **Community Assessment (ASSESS)**
+  - Description: Indicates any meetings, groups, or classes specifically to plan or conduct an assessment of community needs.
+  - Boolean
 
 ### MARRIAGE
 
+- **Marriage Enrichment (MARRIAGE)**
+  - Description: Indicates any meetings, groups, or classes specifically for married couples on enriching or improving their marriage.
+  - Boolean
 
 ### WOMENGRP
 
+- **Women's Group (WOMENGRP)**
+  - Description: Indicates any meetings, groups, or classes specifically for women.
+  - Boolean
 
 ### MENGRP
 
+- **Men's Group (MENGRP)**
+  - Description: Indicates any meetings, groups, or classes specifically for men.
+  - Boolean
 
 ### EXERCISE
 
+- **Exercise Class (EXERCISE)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on exercise or promoting physical activity.
+  - Boolean
 
 ### LGBT
 
-
-
+- **LGBTQ Group (LGBT)**
+  - Description: Indicates any meetings, groups, or classes specifically focused on discussing issues related to sexual orientation or gender identity.
+  - Boolean
