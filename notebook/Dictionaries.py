@@ -1,4 +1,4 @@
-class DictionaryCollection:
+class dictionaryCollection:
     def __init__(self):
         self.pos1_dict = {
             1: 'Primary Congregational Leader',
