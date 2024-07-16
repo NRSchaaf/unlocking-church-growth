@@ -1,37 +1,5 @@
 class dictionaryCollection:
     def __init__(self):
-        self.pos1_dict = {
-            1: 'Primary Congregational Leader',
-            2: 'General Congregational Leader',
-            3: 'Music',
-            4: 'Education',
-            5: 'Youth and Young Adults',
-            6: 'Adult/Family/Outreach',
-            7: 'Sick/Bereaved', 
-            8: 'Missions',
-            9: 'blank',
-            10: 'Administration',
-            11: 'Lay Leader',
-            12: 'Building/Grounds Caretaking',
-            13: 'Other',
-            14: 'Multiple Roles' 
-            # Add more mappings as needed
-        }
-        
-        self.region_dict = {
-            1: 'New England or Mid-Atlantic',
-            2: 'East North Central or West North Central',
-            3: 'South Atlantic, East South Central, or West South Central',
-            4: 'Mountain or Pacific' 
-            # Add more mappings as needed
-        }
-        
-        self.haveden_dict = {
-            1: 'Yes',
-            2: 'No'
-            # Add more mappings as needed
-        }
-        
         self.denom_dict = {
             1: 'Jewish Orthodox',
             2: 'Jewish Reform (Union)',
@@ -107,88 +75,15 @@ class dictionaryCollection:
             # Add more mappings as needed
         }
         
-        self.dencode_dict = {
-            1: 'Roman Catholic',
-            2: 'Southern Baptist Convention',
-            3: 'Black Baptist',
-            4: 'American Black Convention',
-            5: 'Other Baptist',
-            6: 'United Methodist Church',
-            7: 'Black Methodist', 
-            8: 'Other Methodist',
-            9: 'Evangelical Lutheran Church in America',
-            10: 'Lutheran Church - Missouri Synod',
-            11: 'Other Lutheran',
-            12: 'Presbyterian Church (USA)',
-            13: 'Other Presbyterian',
-            14: 'Assemblies of God',
-            15: 'Other Pentecostal',
-            16: 'Church of God in Christ',
-            17: 'Disciples of Christ',
-            18: 'Episcopal Church',
-            19: 'United Church of Christ',
-            20: 'Reformed Church in America',
-            21: 'Church of the Brethren',
-            22: 'Jehovah\'s Witness',
-            23: 'Mennonite',
-            24: 'Church of the Nazarene',
-            25: 'Seventh-day Adventist',
-            26: 'Unitarian Universalist Association', 
-            27: 'Eastern Orthodox',
-            28: 'Church/Churches of Christ',
-            29: 'Various Church of God',
-            30: 'Church of Jesus Christ of Latter-day Saints',
-            31: 'Jewish',
-            32: 'Non-Christian/non-Jewish',
-            33: 'blank',
-            34: 'blank',
-            35: 'blank',
-            36: 'Christian and Missionary Alliance',
-            37: 'Other Mainline/Liberal',
-            38: 'Other Conservative/Evangelical',
-            39: 'Other Christian, not elsewhere classified'
+        self.change_dict = {
+            1: 'Decreased more than 10 percent',
+            2: 'Decreased less than 10 percent',
+            3: 'Remained about the same',
+            4: 'Increased less than 10 percent',
+            5: 'Increased more than 10 percent'
         }
         
-        self.dencode3_dict = {
-            1: 'Roman Catholic',
-            2: 'Baptist',
-            3: 'blank',
-            4: 'blank',
-            5: 'blank',
-            6: 'Methodist',
-            7: 'blank', 
-            8: 'blank',
-            9: 'Lutheran',
-            10: 'blank',
-            11: 'blank',
-            12: 'Presbyterian or Reformed',
-            13: 'blank',
-            14: 'Pentecostal',
-            15: 'blank',
-            16: 'blank',
-            17: 'Other mainline or liberal Protestants',
-            18: 'Episcopal Church',
-            19: 'blank',
-            20: 'blank',
-            21: 'blank',
-            22: 'Other conservative, evangelical, or sectarian Protestants',
-            23: 'Other Christian, not elsewhere classified',
-            24: 'Non-Christian'
-        } 
-        
-        self.trad3_dict = {
-            1: 'Roman Catholic',
-            2: 'White conservative, evangelical, or fundamentalist',
-            3: 'Black Protestant',
-            4: 'White liberal or moderate',
-            5: 'blank',
-            6: 'Non-Christian'
-        }        
-        
-        self.localaff_dict = {
-            1: 'Yes',
-            2: 'No'
-        }  
+        # Facilities
         
         self.bldgtype_dict = {
             1: 'School',
@@ -196,198 +91,362 @@ class dictionaryCollection:
             20: 'Church, Synagogue, Temple, or Mosque',
             21: 'Other'
         }
-
+        
         self.viewbldg_dict = {
             1: 'Yes',
             2: 'No'
-        }
-
-        self.ownbldg_dict = {
-            1: 'Belongs to congregation or denomination',
-            2: 'Belongs to another group'
+            # Add more mappings as needed
         }
         
         self.remodel_dict = {
             1: 'Yes',
             2: 'No'
-        }
-
-        self.conguse_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-        self.congimm_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-        self.improve_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-        self.multisite_1_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-        self.samebldg_18_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-        self.multisite_2_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-    #    self.nmlocate_12_dict = {
-    #        1: 'Yes',
-    #        2: 'No'
-    #    }
-
-    #    self.nmlocate_18_dict = {
-    #        1: 'Yes',
-    #        2: 'No'
-    #    }
-
-        self.branch_12_dict = {
-            1: 'Yes',
-            2: 'No'
+            # Add more mappings as needed
         }
         
-        self.branch_18_dict = {
-            1: 'Yes',
-            2: 'No',
-            3: 'Unknown'
-        }
-
-        self.branchmain_12_dict = {
-            1: 'Satellite/Branch',
-            2: 'Main Location'
-        }
-
-        self.branchmain_18_dict = {
-            1: 'Satellite/Branch',
-            2: 'Main Location'
-        }
- 
-        self.sameser_12_dict = {
+        self.homeschl_dict = {
             1: 'Yes',
             2: 'No'
-        }       
-
-        self.sameser_18_dict = {
+            # Add more mappings as needed
+        }
+        
+        self.haveschl_dict = {
             1: 'Yes',
             2: 'No'
+            # Add more mappings as needed
         }
-
-        self.samemus_12_dict = {
+        
+        self.usebldg_dict = {
             1: 'Yes',
             2: 'No'
+            # Add more mappings as needed
         }
         
-        self.samemus_18_dict = {
-            1: 'Yes',
-            2: 'No',
-            3: 'Unknown'
+        self.permpurp_dict = {
+            1: 'Kitchen',
+            2: 'Buliding/Remodeling',
+            3: 'Liquor License',
+            4: 'Day Care License',
+            5: 'Bingo/Gabling/Raffle License',
+            6: 'Signage/Statue',
+            7: 'Burning',
+            8: 'Festival/Bazaar',
+            9: 'Parade/March',
+            10: 'Boiler',
+            11: 'Mailing',
+            12: 'Zoning',
+            13: 'Tax Exemption',
+            15: 'Food License',
+            16: 'Worker\'s Compensation',
+            17: 'Soup Kitchen',
+            18: 'Fire Department',
+            19: 'Rezoning',
+            20: 'Expand Cemetery',
+            21: 'Vehicle License',
+            22: 'School Registration',
+            23: 'Build Houses',
+            24: 'Handicapped License',
+            25: 'Health Permit',
+            26: 'Visa',
+            27: 'Elevator',
+            28: 'Resale Permit',
+            29: 'Historic Site Status',
+            30: 'Radio Station'
+            # Add more mappings as needed
         }
         
-        self.adltchg_dict = {
-            1: 'Increased',
-            2: 'Remained about the same',
-            3: 'Decreased'
-        }
+        # Music
         
-        self.change_dict = {
-            1: 'Decreased > 10%',
-            2: 'Decreased < 10%',
-            3: 'Remained about the same',
-            4: 'Increased < 10%',
-            5: 'Increased > 10%'
-        }
-
-        self.clergone_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-
-        self.leadsit_dict = {
-            1: 'No Leader',
-            2: 'Co-Leaders',
-            3: 'Other Situation'
-        }
-        
-    #    self.leadsit_dict = {
-    #        1: 'Yes',
-    #        2: 'No'
-    #    }
-
-        self.ldrsrch_dict = {
-            1: 'Yes',
-            2: 'No'
-        }
-        
-        self.cldrmar_dict = {
+        self.singing_dict = {
             1: 'Yes',
             2: 'No'
-        }
-
-        self.clergsex_dict = {
-            1: 'Male',
-            2: 'Female'
+            # Add more mappings as needed
         }
         
-        self.clerrace_dict = {
-            1: 'White',
-            2: 'Black or African American',
-            3: 'Hispanic',
-            4: 'Asian or Pacific Islander',
-            5: 'Other'
-        }
-        
-        self.clerhisp_dict = {
+        self.choir_dict = {
             1: 'Yes',
             2: 'No'
-        }
-
-        self.clerrace_dict = {
-            -9: 'Unknown',
-            1: 'White and non-Hispanic',
-            2: 'White Hispanic',
-            3: 'Black and non-Hispanic',
-            4: 'Black Hispanic',
-            5: 'Hispanic',
-            6: 'Asian and non-Hispanic',
-            7: 'Asian Hispanic',
-            8: 'Other'
+            # Add more mappings as needed
         }
         
-        self.clerorig_dict = {
-            1: 'Mexican American/Chicano',
-            2: 'Mexican',
-            3: 'Puerto Rican',
-            5: 'Cuban',
-            6: 'Dominican',
-            7: 'Colombian',
-            9: 'Central American, Other',
-            10: 'South American, Other',
-            11: 'Other'
+        self.piano_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
         }
         
-        self.change_dict = {
-            1: 'Decreased more than 10 percent',
-            2: 'Decreased less than 10 percent',
-            3: 'Remained about the same',
-            4: 'Increased less than 10 percent',
-            5: 'Increased more than 10 percent',
+        self.organ_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
         }
-                
+        
+        self.drums_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.elecgtr_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.guitar_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        # Staffing - no dictionaries needed
+        
+        # Worship
+        
+        self.sermon_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.spkrdwn_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.greet_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.kidtime_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.teenpart_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.robe_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.laugh_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.program_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.overhead_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.streamed_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.smtphone_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.congread_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.offering_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        # Programs
+        
+        self.clsyacs_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.clsadlt_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.ythgrp_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.teenchor_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.teencamp_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.teenvol_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.politics_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.disbible_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.books_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.parents_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.voterreg_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.science_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.environ_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.orgvols_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.workprob_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.newmems_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.train_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.racerel_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.othtrad_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.ownmony_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.congmony_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.assess_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.marriage_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.womengrp_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.mengrp_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.exercise_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+        
+        self.lgbt_dict = {
+            1: 'Yes',
+            2: 'No'
+            # Add more mappings as needed
+        }
+                        
         # Add more dictionaries as needed
 
-    def get_pos1_description(self, numeric_value):
-        return self.pos1_dict.get(numeric_value, 'Unknown')
 
     def get_denom_description(self, numeric_value):
         return self.denom_dict.get(numeric_value, 'Unknown')
@@ -395,6 +454,231 @@ class dictionaryCollection:
     def get_change_description(self, numeric_value):
         return self.change_dict.get(numeric_value, 'Unknown')
     
+    def get_bldgtype_description(self, numeric_value):
+        return self.bldgtype_dict.get(numeric_value, 'Unknown')
+    
+    def get_viewbldg_description(self, numeric_value):
+        return self.viewbldg_dict.get(numeric_value, 'Unknown')
+ 
+    def get_remodel_description(self, numeric_value):
+        return self.remodel_dict.get(numeric_value, 'Unknown')
+
+    def get_homeschl_description(self, numeric_value):
+        return self.homeschl_dict.get(numeric_value, 'Unknown') 
+ 
+    def get_haveschl_description(self, numeric_value):
+        return self.haveschl_dict.get(numeric_value, 'Unknown')  
+ 
+    def get_usebldg_description(self, numeric_value):
+        return self.usebldg_dict.get(numeric_value, 'Unknown')  
+ 
+    def get_permpurp_description(self, numeric_value):
+        return self.permpurp_dict.get(numeric_value, 'Unknown')  
+ 
+    def get_singing_description(self, numeric_value):
+        return self.singing_dict.get(numeric_value, 'Unknown')  
+ 
+    def get_choir_description(self, numeric_value):
+        return self.choir_dict.get(numeric_value, 'Unknown') 
+ 
+    def get_piano_description(self, numeric_value):
+        return self.piano_dict.get(numeric_value, 'Unknown') 
+
+    def get_organ_description(self, numeric_value):
+        return self.organ_dict.get(numeric_value, 'Unknown') 
+
+    def get_drums_description(self, numeric_value):
+        return self.drums_dict.get(numeric_value, 'Unknown') 
+
+    def get_elecgtr_description(self, numeric_value):
+        return self.elecgtr_dict.get(numeric_value, 'Unknown') 
+
+    def get_guitar_description(self, numeric_value):
+        return self.guitar_dict.get(numeric_value, 'Unknown') 
+
+    def get_sermon_description(self, numeric_value):
+        return self.sermon_dict.get(numeric_value, 'Unknown') 
+
+    def get_spkrdwn_description(self, numeric_value):
+        return self.spkrdwn_dict.get(numeric_value, 'Unknown') 
+
+    def get_greet_description(self, numeric_value):
+        return self.greet_dict.get(numeric_value, 'Unknown') 
+
+    def get_kidtime_description(self, numeric_value):
+        return self.kidtime_dict.get(numeric_value, 'Unknown') 
+
+    def get_teenpart_description(self, numeric_value):
+        return self.teenpart_dict.get(numeric_value, 'Unknown') 
+
+    def get_robe_description(self, numeric_value):
+        return self.robe_dict.get(numeric_value, 'Unknown') 
+
+    def get_laugh_description(self, numeric_value):
+        return self.laugh_dict.get(numeric_value, 'Unknown') 
+
+    def get_program_description(self, numeric_value):
+        return self.program_dict.get(numeric_value, 'Unknown') 
+
+    def get_overhead_description(self, numeric_value):
+        return self.overhead_dict.get(numeric_value, 'Unknown') 
+
+    def get_streamed_description(self, numeric_value):
+        return self.streamed_dict.get(numeric_value, 'Unknown')
+
+    def get_smtphone_description(self, numeric_value):
+        return self.smtphone_dict.get(numeric_value, 'Unknown')
+
+    def get_congread_description(self, numeric_value):
+        return self.congread_dict.get(numeric_value, 'Unknown')
+
+    def get_offering_description(self, numeric_value):
+        return self.offering_dict.get(numeric_value, 'Unknown')
+
+    def get_clsyacs_description(self, numeric_value):
+        return self.clsyacs_dict.get(numeric_value, 'Unknown')
+
+    def get_clsadlt_description(self, numeric_value):
+        return self.clsadlt_dict.get(numeric_value, 'Unknown')
+
+    def get_ythgrp_description(self, numeric_value):
+        return self.ythgrp_dict.get(numeric_value, 'Unknown')
+
+    def get_teenchor_description(self, numeric_value):
+        return self.teenchor_dict.get(numeric_value, 'Unknown')
+
+    def get_teencamp_description(self, numeric_value):
+        return self.teencamp_dict.get(numeric_value, 'Unknown')
+
+    def get_teenvol_description(self, numeric_value):
+        return self.teenvol_dict.get(numeric_value, 'Unknown')
+    
+    def get_politics_description(self, numeric_value):
+        return self.politics_dict.get(numeric_value, 'Unknown')    
+    
+    def get_disbible_description(self, numeric_value):
+        return self.disbible_dict.get(numeric_value, 'Unknown')     
+    
+    def get_books_description(self, numeric_value):
+        return self.books_dict.get(numeric_value, 'Unknown')    
+    
+    def get_parents_description(self, numeric_value):
+        return self.parents_dict.get(numeric_value, 'Unknown')    
+    
+    def get_voterreg_description(self, numeric_value):
+        return self.voterreg_dict.get(numeric_value, 'Unknown')    
+    
+    def get_science_description(self, numeric_value):
+        return self.science_dict.get(numeric_value, 'Unknown')
+
+    def get_environ_description(self, numeric_value):
+        return self.environ_dict.get(numeric_value, 'Unknown')
+
+    def get_orgvols_description(self, numeric_value):
+        return self.orgvols_dict.get(numeric_value, 'Unknown')
+
+    def get_workprob_description(self, numeric_value):
+        return self.workprob_dict.get(numeric_value, 'Unknown')
+
+    def get_newmems_description(self, numeric_value):
+        return self.newmems_dict.get(numeric_value, 'Unknown')  
+
+    def get_train_description(self, numeric_value):
+        return self.train_dict.get(numeric_value, 'Unknown')   
+ 
+    def get_racerel_description(self, numeric_value):
+        return self.racerel_dict.get(numeric_value, 'Unknown')
+ 
+    def get_othtrad_description(self, numeric_value):
+        return self.othtrad_dict.get(numeric_value, 'Unknown') 
+ 
+    def get_ownmony_description(self, numeric_value):
+        return self.ownmony_dict.get(numeric_value, 'Unknown') 
+ 
+    def get_congmony_description(self, numeric_value):
+        return self.congmony_dict.get(numeric_value, 'Unknown') 
+ 
+    def get_assess_description(self, numeric_value):
+        return self.assess_dict.get(numeric_value, 'Unknown') 
+
+    def get_marriage_description(self, numeric_value):
+        return self.marriage_dict.get(numeric_value, 'Unknown') 
+
+    def get_womengrp_description(self, numeric_value):
+        return self.womengrp_dict.get(numeric_value, 'Unknown') 
+
+    def get_mengrp_description(self, numeric_value):
+        return self.mengrp_dict.get(numeric_value, 'Unknown') 
+
+    def get_exercise_description(self, numeric_value):
+        return self.exercise_dict.get(numeric_value, 'Unknown')  
+
+    def get_lgbt_description(self, numeric_value):
+        return self.lgbt_dict.get(numeric_value, 'Unknown') 
+    
+    
+    # Replace Numeric Values
+    
+    def replace_numeric_values(self, df):
+        df['DENOM'] = df['DENOM'].apply(self.get_denom_description)
+        df['CHANGE'] = df['CHANGE'].apply(self.get_change_description)
+        df['BLDGTYPE'] = df['BLDGTYPE'].apply(self.get_bldgtype_description)
+        df['VIEWBLDG'] = df['VIEWBLDG'].apply(self.get_viewbldg_description)
+        df['REMODEL'] = df['REMODEL'].apply(self.get_remodel_description)
+        df['HOMESCHL'] = df['HOMESCHL'].apply(self.get_homeschl_description)
+        df['HAVESCHL'] = df['HAVESCHL'].apply(self.get_haveschl_description)
+        df['USEBLDG'] = df['USEBLDG'].apply(self.get_usebldg_description)
+        df['PERMPURP'] = df['PERMPURP'].apply(self.get_permpurp_description)
+        df['SINGING'] = df['SINGING'].apply(self.get_singing_description)
+        df['CHOIR'] = df['CHOIR'].apply(self.get_choir_description)
+        df['PIANO'] = df['PIANO'].apply(self.get_piano_description)
+        df['ORGAN'] = df['ORGAN'].apply(self.get_organ_description)
+        df['DRUMS'] = df['DRUMS'].apply(self.get_drums_description)
+        df['ELECGTR'] = df['ELECGTR'].apply(self.get_elecgtr_description)
+        df['GUITAR'] = df['GUITAR'].apply(self.get_guitar_description)
+        df['SERMON'] = df['SERMON'].apply(self.get_sermon_description)
+        df['SPKRDWN'] = df['SPKRDWN'].apply(self.get_spkrdwn_description)
+        df['GREET'] = df['GREET'].apply(self.get_greet_description)
+        df['KIDTIME'] = df['KIDTIME'].apply(self.get_kidtime_description)
+        df['TEENPART'] = df['TEENPART'].apply(self.get_teenpart_description)
+        df['ROBE'] = df['ROBE'].apply(self.get_robe_description)
+        df['LAUGH'] = df['LAUGH'].apply(self.get_laugh_description)
+        df['PROGRAM'] = df['PROGRAM'].apply(self.get_program_description)
+        df['OVERHEAD'] = df['OVERHEAD'].apply(self.get_overhead_description)
+        df['STREAMED'] = df['STREAMED'].apply(self.get_streamed_description)
+        df['SMTPHONE'] = df['SMTPHONE'].apply(self.get_smtphone_description)
+        df['CONGREAD'] = df['CONGREAD'].apply(self.get_congread_description)
+        df['OFFERING'] = df['OFFERING'].apply(self.get_offering_description)
+        df['CLSYACS'] = df['CLSYACS'].apply(self.get_clsyacs_description)
+        df['CLSADLT'] = df['CLSADLT'].apply(self.get_clsadlt_description)
+        df['YTHGRP'] = df['YTHGRP'].apply(self.get_ythgrp_description)
+        df['TEENCHOR'] = df['TEENCHOR'].apply(self.get_teenchor_description)
+        df['TEENCAMP'] = df['TEENCAMP'].apply(self.get_teencamp_description)
+        df['TEENVOL'] = df['TEENVOL'].apply(self.get_teenvol_description)
+        df['POLITICS'] = df['POLITICS'].apply(self.get_politics_description)
+        df['DISBIBLE'] = df['DISBIBLE'].apply(self.get_disbible_description)
+        df['BOOKS'] = df['BOOKS'].apply(self.get_books_description)
+        df['PARENTS'] = df['PARENTS'].apply(self.get_parents_description)
+        df['VOTERREG'] = df['VOTERREG'].apply(self.get_voterreg_description)
+        df['SCIENCE'] = df['SCIENCE'].apply(self.get_science_description)
+        df['ENVIRON'] = df['ENVIRON'].apply(self.get_environ_description)
+        df['ORGVOLS'] = df['ORGVOLS'].apply(self.get_orgvols_description)
+        df['WORKPROB'] = df['WORKPROB'].apply(self.get_workprob_description)
+        df['NEWMEMS'] = df['NEWMEMS'].apply(self.get_newmems_description)
+        df['TRAIN'] = df['TRAIN'].apply(self.get_train_description)
+        df['RACEREL'] = df['RACEREL'].apply(self.get_racerel_description)
+        df['OTHTRAD'] = df['OTHTRAD'].apply(self.get_othtrad_description)
+        df['OWNMONY'] = df['OWNMONY'].apply(self.get_ownmony_description)
+        df['CONGMONY'] = df['CONGMONY'].apply(self.get_congmony_description)
+        df['ASSESS'] = df['ASSESS'].apply(self.get_assess_description)
+        df['MARRIAGE'] = df['MARRIAGE'].apply(self.get_marriage_description)
+        df['WOMENGRP'] = df['WOMENGRP'].apply(self.get_womengrp_description)
+        df['MENGRP'] = df['MENGRP'].apply(self.get_mengrp_description)
+        df['EXERCISE'] = df['EXERCISE'].apply(self.get_exercise_description)
+        df['LGBT'] = df['LGBT'].apply(self.get_lgbt_description)
+        
+        return df
+        
 # Example usage:
 # Create an instance of the DictionaryCollection class
 #dict_collection = DictionaryCollection()
