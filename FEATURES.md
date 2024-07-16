@@ -433,9 +433,9 @@ Note that the Staffing Analysis does not include analysis of a full-time lead or
   - Description: Indicates if the service was broadcast or streamed live so that people outside the building or campus could see it.
   - Boolean
 
-### STMPHONE
+### SMTPHONE
 
-- **Smart Phone (STMPHONE)**
+- **Smart Phone (SMTPHONE)**
   - Description: Indicates if people were offered the opportunity to use their smartphones during the service to participate in some way.
   - Boolean
 
