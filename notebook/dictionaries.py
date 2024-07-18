@@ -1,3 +1,4 @@
+import pandas as pd
 import numpy as np
 
 class dictionaryCollection:
@@ -95,8 +96,8 @@ class dictionaryCollection:
         }
         
         self.viewbldg_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
