@@ -102,26 +102,26 @@ class dictionaryCollection:
         }
         
         self.remodel_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.homeschl_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.haveschl_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.usebldg_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
@@ -161,44 +161,44 @@ class dictionaryCollection:
         # Music
         
         self.singing_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.choir_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.piano_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.organ_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.drums_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.elecgtr_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.guitar_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
@@ -207,244 +207,244 @@ class dictionaryCollection:
         # Worship
         
         self.sermon_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.spkrdwn_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.greet_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.kidtime_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.teenpart_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.robe_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.laugh_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.program_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.overhead_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.streamed_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.smtphone_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.congread_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.offering_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         # Programs
         
         self.clsyacs_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.clsadlt_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.ythgrp_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.teenchor_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.teencamp_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.teenvol_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.politics_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.disbible_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.books_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.parents_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.voterreg_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.science_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.environ_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.orgvols_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.workprob_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.newmems_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.train_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.racerel_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.othtrad_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.ownmony_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.congmony_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.assess_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.marriage_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.womengrp_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.mengrp_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.exercise_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
         
         self.lgbt_dict = {
-            1: 'Yes',
-            2: 'No'
+            1: True,
+            2: False
             # Add more mappings as needed
         }
                         
