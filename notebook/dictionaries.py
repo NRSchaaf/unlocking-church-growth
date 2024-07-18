@@ -449,172 +449,172 @@ class dictionaryCollection:
 
 
     def get_denom_description(self, numeric_value):
-        return self.denom_dict.get(numeric_value, 'Unknown')
+        return self.denom_dict.get(numeric_value, np.nan)
     
     def get_change_description(self, numeric_value):
-        return self.change_dict.get(numeric_value, 'Unknown')
+        return self.change_dict.get(numeric_value, np.nan)
     
     def get_bldgtype_description(self, numeric_value):
-        return self.bldgtype_dict.get(numeric_value, 'Unknown')
+        return self.bldgtype_dict.get(numeric_value, np.nan)
     
     def get_viewbldg_description(self, numeric_value):
-        return self.viewbldg_dict.get(numeric_value, 'Unknown')
+        return self.viewbldg_dict.get(numeric_value, np.nan)
  
     def get_remodel_description(self, numeric_value):
-        return self.remodel_dict.get(numeric_value, 'Unknown')
+        return self.remodel_dict.get(numeric_value, np.nan)
 
     def get_homeschl_description(self, numeric_value):
-        return self.homeschl_dict.get(numeric_value, 'Unknown') 
+        return self.homeschl_dict.get(numeric_value, np.nan) 
  
     def get_haveschl_description(self, numeric_value):
-        return self.haveschl_dict.get(numeric_value, 'Unknown')  
+        return self.haveschl_dict.get(numeric_value, np.nan)  
  
     def get_usebldg_description(self, numeric_value):
-        return self.usebldg_dict.get(numeric_value, 'Unknown')  
+        return self.usebldg_dict.get(numeric_value, np.nan)  
  
     def get_permpurp_description(self, numeric_value):
-        return self.permpurp_dict.get(numeric_value, 'Unknown')  
+        return self.permpurp_dict.get(numeric_value, np.nan)  
  
     def get_singing_description(self, numeric_value):
-        return self.singing_dict.get(numeric_value, 'Unknown')  
+        return self.singing_dict.get(numeric_value, np.nan)  
  
     def get_choir_description(self, numeric_value):
-        return self.choir_dict.get(numeric_value, 'Unknown') 
+        return self.choir_dict.get(numeric_value, np.nan) 
  
     def get_piano_description(self, numeric_value):
-        return self.piano_dict.get(numeric_value, 'Unknown') 
+        return self.piano_dict.get(numeric_value, np.nan) 
 
     def get_organ_description(self, numeric_value):
-        return self.organ_dict.get(numeric_value, 'Unknown') 
+        return self.organ_dict.get(numeric_value, np.nan) 
 
     def get_drums_description(self, numeric_value):
-        return self.drums_dict.get(numeric_value, 'Unknown') 
+        return self.drums_dict.get(numeric_value, np.nan) 
 
     def get_elecgtr_description(self, numeric_value):
-        return self.elecgtr_dict.get(numeric_value, 'Unknown') 
+        return self.elecgtr_dict.get(numeric_value, np.nan) 
 
     def get_guitar_description(self, numeric_value):
-        return self.guitar_dict.get(numeric_value, 'Unknown') 
+        return self.guitar_dict.get(numeric_value, np.nan) 
 
     def get_sermon_description(self, numeric_value):
-        return self.sermon_dict.get(numeric_value, 'Unknown') 
+        return self.sermon_dict.get(numeric_value, np.nan) 
 
     def get_spkrdwn_description(self, numeric_value):
-        return self.spkrdwn_dict.get(numeric_value, 'Unknown') 
+        return self.spkrdwn_dict.get(numeric_value, np.nan) 
 
     def get_greet_description(self, numeric_value):
-        return self.greet_dict.get(numeric_value, 'Unknown') 
+        return self.greet_dict.get(numeric_value, np.nan) 
 
     def get_kidtime_description(self, numeric_value):
-        return self.kidtime_dict.get(numeric_value, 'Unknown') 
+        return self.kidtime_dict.get(numeric_value, np.nan) 
 
     def get_teenpart_description(self, numeric_value):
-        return self.teenpart_dict.get(numeric_value, 'Unknown') 
+        return self.teenpart_dict.get(numeric_value, np.nan) 
 
     def get_robe_description(self, numeric_value):
-        return self.robe_dict.get(numeric_value, 'Unknown') 
+        return self.robe_dict.get(numeric_value, np.nan) 
 
     def get_laugh_description(self, numeric_value):
-        return self.laugh_dict.get(numeric_value, 'Unknown') 
+        return self.laugh_dict.get(numeric_value, np.nan) 
 
     def get_program_description(self, numeric_value):
-        return self.program_dict.get(numeric_value, 'Unknown') 
+        return self.program_dict.get(numeric_value, np.nan) 
 
     def get_overhead_description(self, numeric_value):
-        return self.overhead_dict.get(numeric_value, 'Unknown') 
+        return self.overhead_dict.get(numeric_value, np.nan) 
 
     def get_streamed_description(self, numeric_value):
-        return self.streamed_dict.get(numeric_value, 'Unknown')
+        return self.streamed_dict.get(numeric_value, np.nan)
 
     def get_smtphone_description(self, numeric_value):
-        return self.smtphone_dict.get(numeric_value, 'Unknown')
+        return self.smtphone_dict.get(numeric_value, np.nan)
 
     def get_congread_description(self, numeric_value):
-        return self.congread_dict.get(numeric_value, 'Unknown')
+        return self.congread_dict.get(numeric_value, np.nan)
 
     def get_offering_description(self, numeric_value):
-        return self.offering_dict.get(numeric_value, 'Unknown')
+        return self.offering_dict.get(numeric_value, np.nan)
 
     def get_clsyacs_description(self, numeric_value):
-        return self.clsyacs_dict.get(numeric_value, 'Unknown')
+        return self.clsyacs_dict.get(numeric_value, np.nan)
 
     def get_clsadlt_description(self, numeric_value):
-        return self.clsadlt_dict.get(numeric_value, 'Unknown')
+        return self.clsadlt_dict.get(numeric_value, np.nan)
 
     def get_ythgrp_description(self, numeric_value):
-        return self.ythgrp_dict.get(numeric_value, 'Unknown')
+        return self.ythgrp_dict.get(numeric_value, np.nan)
 
     def get_teenchor_description(self, numeric_value):
-        return self.teenchor_dict.get(numeric_value, 'Unknown')
+        return self.teenchor_dict.get(numeric_value, np.nan)
 
     def get_teencamp_description(self, numeric_value):
-        return self.teencamp_dict.get(numeric_value, 'Unknown')
+        return self.teencamp_dict.get(numeric_value, np.nan)
 
     def get_teenvol_description(self, numeric_value):
-        return self.teenvol_dict.get(numeric_value, 'Unknown')
+        return self.teenvol_dict.get(numeric_value, np.nan)
     
     def get_politics_description(self, numeric_value):
-        return self.politics_dict.get(numeric_value, 'Unknown')    
+        return self.politics_dict.get(numeric_value, np.nan)    
     
     def get_disbible_description(self, numeric_value):
-        return self.disbible_dict.get(numeric_value, 'Unknown')     
+        return self.disbible_dict.get(numeric_value, np.nan)     
     
     def get_books_description(self, numeric_value):
-        return self.books_dict.get(numeric_value, 'Unknown')    
+        return self.books_dict.get(numeric_value, np.nan)    
     
     def get_parents_description(self, numeric_value):
-        return self.parents_dict.get(numeric_value, 'Unknown')    
+        return self.parents_dict.get(numeric_value, np.nan)    
     
     def get_voterreg_description(self, numeric_value):
-        return self.voterreg_dict.get(numeric_value, 'Unknown')    
+        return self.voterreg_dict.get(numeric_value, np.nan)    
     
     def get_science_description(self, numeric_value):
-        return self.science_dict.get(numeric_value, 'Unknown')
+        return self.science_dict.get(numeric_value, np.nan)
 
     def get_environ_description(self, numeric_value):
-        return self.environ_dict.get(numeric_value, 'Unknown')
+        return self.environ_dict.get(numeric_value, np.nan)
 
     def get_orgvols_description(self, numeric_value):
-        return self.orgvols_dict.get(numeric_value, 'Unknown')
+        return self.orgvols_dict.get(numeric_value, np.nan)
 
     def get_workprob_description(self, numeric_value):
-        return self.workprob_dict.get(numeric_value, 'Unknown')
+        return self.workprob_dict.get(numeric_value, np.nan)
 
     def get_newmems_description(self, numeric_value):
-        return self.newmems_dict.get(numeric_value, 'Unknown')  
+        return self.newmems_dict.get(numeric_value, np.nan)  
 
     def get_train_description(self, numeric_value):
-        return self.train_dict.get(numeric_value, 'Unknown')   
+        return self.train_dict.get(numeric_value, np.nan)   
  
     def get_racerel_description(self, numeric_value):
-        return self.racerel_dict.get(numeric_value, 'Unknown')
+        return self.racerel_dict.get(numeric_value, np.nan)
  
     def get_othtrad_description(self, numeric_value):
-        return self.othtrad_dict.get(numeric_value, 'Unknown') 
+        return self.othtrad_dict.get(numeric_value, np.nan) 
  
     def get_ownmony_description(self, numeric_value):
-        return self.ownmony_dict.get(numeric_value, 'Unknown') 
+        return self.ownmony_dict.get(numeric_value, np.nan) 
  
     def get_congmony_description(self, numeric_value):
-        return self.congmony_dict.get(numeric_value, 'Unknown') 
+        return self.congmony_dict.get(numeric_value, np.nan) 
  
     def get_assess_description(self, numeric_value):
-        return self.assess_dict.get(numeric_value, 'Unknown') 
+        return self.assess_dict.get(numeric_value, np.nan) 
 
     def get_marriage_description(self, numeric_value):
-        return self.marriage_dict.get(numeric_value, 'Unknown') 
+        return self.marriage_dict.get(numeric_value, np.nan) 
 
     def get_womengrp_description(self, numeric_value):
-        return self.womengrp_dict.get(numeric_value, 'Unknown') 
+        return self.womengrp_dict.get(numeric_value, np.nan) 
 
     def get_mengrp_description(self, numeric_value):
-        return self.mengrp_dict.get(numeric_value, 'Unknown') 
+        return self.mengrp_dict.get(numeric_value, np.nan) 
 
     def get_exercise_description(self, numeric_value):
-        return self.exercise_dict.get(numeric_value, 'Unknown')  
+        return self.exercise_dict.get(numeric_value, np.nan)  
 
     def get_lgbt_description(self, numeric_value):
-        return self.lgbt_dict.get(numeric_value, 'Unknown') 
+        return self.lgbt_dict.get(numeric_value, np.nan) 
     
     
     # Replace Numeric Values
