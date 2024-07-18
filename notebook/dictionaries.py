@@ -449,7 +449,7 @@ class dictionaryCollection:
 
 
     def get_denom_description(self, numeric_value):
-        return self.denom_dict.get(numeric_value, 'Unkown')
+        return self.denom_dict.get(numeric_value, 'Unknown')
     
     def get_change_description(self, numeric_value):
         return self.change_dict.get(numeric_value, np.nan)
