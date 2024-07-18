@@ -1,3 +1,5 @@
+import numpy as np
+
 class dictionaryCollection:
     def __init__(self):
         self.denom_dict = {
@@ -449,7 +451,7 @@ class dictionaryCollection:
 
 
     def get_denom_description(self, numeric_value):
-        return self.denom_dict.get(numeric_value, 'Unknown')
+        return self.denom_dict.get(numeric_value, np.nan)
     
     def get_change_description(self, numeric_value):
         return self.change_dict.get(numeric_value, np.nan)
