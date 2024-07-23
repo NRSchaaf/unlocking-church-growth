@@ -242,6 +242,12 @@ class dictionaryCollection:
             # Add more mappings as needed
         }
         
+        self.applause_dict = {
+            1: True,
+            2: False
+            # Add more mappings as needed
+        }
+        
         self.laugh_dict = {
             1: True,
             2: False
@@ -516,6 +522,9 @@ class dictionaryCollection:
 
     def get_robe_description(self, numeric_value):
         return self.robe_dict.get(numeric_value, np.nan) 
+
+    def get_applause_description(self, numeric_value):
+        return self.applause_dict.get(numeric_value, np.nan) 
 
     def get_laugh_description(self, numeric_value):
         return self.laugh_dict.get(numeric_value, np.nan) 
