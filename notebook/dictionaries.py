@@ -654,6 +654,7 @@ class dictionaryCollection:
         df['KIDTIME'] = df['KIDTIME'].apply(self.get_kidtime_description)
         df['TEENPART'] = df['TEENPART'].apply(self.get_teenpart_description)
         df['ROBE'] = df['ROBE'].apply(self.get_robe_description)
+        df['APPLAUSE'] = df['APPLAUSE'].apply(self.get_applause_description)
         df['LAUGH'] = df['LAUGH'].apply(self.get_laugh_description)
         df['PROGRAM'] = df['PROGRAM'].apply(self.get_program_description)
         df['OVERHEAD'] = df['OVERHEAD'].apply(self.get_overhead_description)
