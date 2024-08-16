@@ -1,11 +1,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/NRSchaaf/unlocking-church-growth.git">
+    <img src="images/ucg_cover.jpg" alt="Logo" >
   </a>
 
-<h1 align="center">Unlocking Church Growth: Data Insights from the National Congregations Study</h3>
+<!-- <h1 align="center">Unlocking Church Growth: Data Insights from the National Congregations Study</h3> -->
 
   <p align="center">
     This analysis helps to identify targeted strategies to improve congregational engagement and increase church attendance.
@@ -52,7 +52,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+  <img src="images/wordCloud.png" alt="Word Cloud">
+</p>
 
 “Over the past two decades American churches have seen a decline in regular attendance and participation” (Jones, 2024). And since the 2019 Covid pandemic, many churches have not recovered to their pre-covid attendance levels. By using probabilistic prediction models, we can explore existing church features to gauge their impact on changing congregational size. This analysis helps to identify targeted strategies to improve congregational engagement and increase church attendance.
 <br />
@@ -128,6 +130,10 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+<p align="center">
+  <img src="images/probabilityGraph.jpg" alt="Probability Graph Example">
+</p>
 
 This analysis is intended for decision-makers within religious congregations, including clergy, religious leaders, elders or board members, program leaders, employees, and committee leaders. These individuals are responsible for worship, programming, and other activities that engage the general congregation or are sponsored by the organization.
 <br />
